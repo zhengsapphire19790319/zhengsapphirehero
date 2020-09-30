@@ -43,4 +43,4 @@ EOF
 
 # Run V2Ray
 /usr/local/bin/v2ctl config /usr/local/etc/v2ray/config.json > /usr/local/etc/v2ray/config.pb
-/usr/local/bin/v2ray -config /usr/local/etc/v2ray/config.pb -f pb
+/usr/local/bin/v2ray -config /usr/local/etc/v2ray/config.pb -format pb
