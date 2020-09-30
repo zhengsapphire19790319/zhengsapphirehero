@@ -40,7 +40,7 @@ cat << EOF > /usr/local/etc/v2ray/config.json
 }
 EOF
 
-
+cat  /usr/local/etc/v2ray/config.json
 # Run V2Ray
 #/usr/local/bin/v2ctl config /usr/local/etc/v2ray/config.json > /usr/local/etc/v2ray/config.pb
 #/usr/local/bin/v2ray -config /usr/local/etc/v2ray/config.pb -format pb
