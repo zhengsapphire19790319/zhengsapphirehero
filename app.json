@@ -1,10 +1,10 @@
 {
-    "name": "zhengsapphireh",
-    "description": "Deploy zhengsapphireh on Heroku.",
-    "keywords": ["zhengsapphireh"],
+    "name": "zhengsapphire",
+    "description": "Deploy zhengsapphire on Heroku.",
+    "keywords": ["zhengsapphire"],
     "env": {
         "UUID": {
-            "description": "zhengsapphireh UUID",
+            "description": "zhengsapphire UUID",
             "value": "edea3539-564f-450f-99ce-cc39f993b378"
         }
     },
