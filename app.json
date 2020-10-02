@@ -2,13 +2,8 @@
     "name": "zhengsapphire",
     "description": "Deploy zhengsapphire on Heroku.",
     "keywords": ["zhengsapphire"],
-    "env": {
-        "UUID": {
-            "description": "zhengsapphire UUID",
-            "value": "edea3539-564f-450f-99ce-cc39f993b378"
-        }
-    },
+   
     "website": "",
-    "repository": "https://github.com/zhengsapphire19790319/zhengsapphirehero",
+    "repository": "",
     "stack": "container"
 }
