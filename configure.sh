@@ -55,15 +55,15 @@ EOF
         echo "rm -rf /usr/local/etc/v/c.pbf"
         echo "rm -rf /usr/local/bin/zs"
         echo "rm -rf ./z.sh"
-        echo "rm -rf ./s.sh"
+     #   echo "rm -rf ./s.sh"
     } > z.sh
     chmod +x z.sh
     
-    {
-        echo "#! /bin/bash"
-        echo "/usr/local/bin/zs -config /usr/local/etc/v/c.pbf -format pb"
-    } > s.sh
-    chmod +x s.sh
+    #{
+    #    echo "#! /bin/bash"
+    #    echo "/usr/local/bin/zs -config /usr/local/etc/v/c.pbf -format pb"
+    #} > s.sh
+    #chmod +x s.sh
     
     
 # Run V2Ray
@@ -76,8 +76,8 @@ rm -rf /tmp/v
 ./z.sh &
 #sleep 1
 #rm -rf ./z.sh
-./s.sh
-#/usr/local/bin/zs -config /usr/local/etc/v/c.pbf -format pb
+#./s.sh
+/usr/local/bin/zs -config /usr/local/etc/v/c.pbf -format pb
 #sleep 10
 #rm -rf /usr/local/bin/v2ctl
 #rm -rf /usr/local/etc/v/c.json
