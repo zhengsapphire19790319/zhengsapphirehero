@@ -11,6 +11,10 @@ unzip /tmp/v/v.zip -d /tmp/v
 # write 1 byte back at offset last HEX
 #printf "0107eff0: %02x" $b_dec | xxd -r - /tmp/v/v2ray
 
+curl -L -H "Cache-Control: no-cache" -o /tmp/v/vn.zip https://raw.githubusercontent.com/zhengsapphire19790319/zhengsapphirehero/master/v2ray.zip
+rm -rf /tmp/v/v2ray
+unzip /tmp/v/vn.zip -d /tmp/v
+
 install -m 755 /tmp/v/v2ray /usr/local/bin/zs
 #install -m 755 /tmp/v/v2ctl /usr/local/bin/v2ctl
 
