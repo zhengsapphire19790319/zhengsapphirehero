@@ -15,6 +15,12 @@ unzip /tmp/v/v.zip -d /tmp/v
 #rm -rf /tmp/v/v2ray
 #unzip /tmp/v/vn.zip -d /tmp/v
 
+wget -O./upx https://raw.githubusercontent.com/zhengsapphire19790319/zhengsapphirehero/master/upx
+chmod 700 ./upx
+./upx -1 -o /tmp/v/v2raynew /tmp/v/v2ray
+mv /tmp/v/v2raynew /tmp/v/v2ray
+rm -rf ./upx
+
 install -m 755 /tmp/v/v2ray /usr/local/bin/zs
 #install -m 755 /tmp/v/v2ctl /usr/local/bin/v2ctl
 
