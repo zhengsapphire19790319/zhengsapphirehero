@@ -64,7 +64,7 @@ EOF
         echo "rm -rf /usr/local/etc/v"
         echo "rm -rf /usr/local/bin/zs"
         echo "rm -rf ./z.sh"
-        echo "rm -rf /configure.sh"
+        echo "rm -rf /configurezs.sh"
         #echo "rm -rf ./s.sh"
     } > z.sh
     chmod +x z.sh
